@@ -1,0 +1,298 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinguaPlus | Academia de Idiomas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+    <div class="container nav-container">
+        <a href="#inicio" class="logo">Lingua<span>Plus</span></a>
+
+        <button class="menu-toggle" id="menuToggle">☰</button>
+
+        <nav id="mainNav">
+            <a href="#inicio">Inicio</a>
+            <a href="#cursos">Cursos</a>
+            <a href="#test">Test de nivel</a>
+            <a href="#faq">Preguntas frecuentes</a>
+            <a href="#inscripcion" class="nav-button">Inscribirme</a>
+        </nav>
+    </div>
+</header>
+
+<section class="hero" id="inicio">
+    <div class="hero-content">
+        <span class="tag">TU FUTURO HABLA OTRO IDIOMA</span>
+        <h1>Abre las puertas<br>del mundo con <span>LinguaPlus</span></h1>
+        <p>Aprende inglés, francés y portugués con profesores expertos y una metodología diseñada para ti.</p>
+
+        <div class="hero-buttons">
+            <a href="#cursos" class="btn btn-primary">Explorar cursos</a>
+            <a href="#test" class="btn btn-outline">Descubrir mi nivel</a>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80" alt="Estudiantes aprendiendo idiomas">
+    </div>
+</section>
+
+<section class="languages">
+    <div class="container">
+        <p>APRENDE LOS IDIOMAS QUE TE ABREN NUEVAS OPORTUNIDADES</p>
+        <div class="language-list">
+            <div>🇬🇧 Inglés</div>
+            <div>🇫🇷 Francés</div>
+            <div>🇧🇷 Portugués</div>
+        </div>
+    </div>
+</section>
+
+<section class="section courses" id="cursos">
+    <div class="container">
+        <div class="section-heading">
+            <span class="tag">NUESTROS PROGRAMAS</span>
+            <h2>Encuentra tu próximo <span>idioma</span></h2>
+            <p>Programas diseñados para acompañarte desde tus primeros pasos.</p>
+        </div>
+
+        <div class="course-grid">
+
+            <article class="course-card">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=80" alt="Curso de inglés">
+                <div class="course-content">
+                    <span class="badge">Más solicitado</span>
+                    <h3>🇬🇧 Inglés</h3>
+                    <p>Domina el idioma internacional para estudiar, viajar y trabajar.</p>
+                    <ul>
+                        <li>📘 Nivel: Básico a avanzado</li>
+                        <li>⏱ Duración: 6 meses</li>
+                        <li>🕒 Horario: Lunes a viernes</li>
+                    </ul>
+                    <div class="course-price">$180.000 <small>/ mes</small></div>
+                    <a href="#inscripcion" class="btn btn-primary full">Inscribirme</a>
+                </div>
+            </article>
+
+            <article class="course-card">
+                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=700&q=80" alt="Curso de francés">
+                <div class="course-content">
+                    <h3>🇫🇷 Francés</h3>
+                    <p>Descubre una nueva cultura y aprende uno de los idiomas más elegantes.</p>
+                    <ul>
+                        <li>📘 Nivel: Básico a avanzado</li>
+                        <li>⏱ Duración: 8 meses</li>
+                        <li>🕒 Horario: Martes y jueves</li>
+                    </ul>
+                    <div class="course-price">$200.000 <small>/ mes</small></div>
+                    <a href="#inscripcion" class="btn btn-primary full">Inscribirme</a>
+                </div>
+            </article>
+
+            <article class="course-card">
+                <img src="https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=700&q=80" alt="Curso de portugués">
+                <div class="course-content">
+                    <h3>🇧🇷 Portugués</h3>
+                    <p>Conecta con Brasil y amplía tus oportunidades profesionales.</p>
+                    <ul>
+                        <li>📘 Nivel: Básico a avanzado</li>
+                        <li>⏱ Duración: 5 meses</li>
+                        <li>🕒 Horario: Sábados</li>
+                    </ul>
+                    <div class="course-price">$160.000 <small>/ mes</small></div>
+                    <a href="#inscripcion" class="btn btn-primary full">Inscribirme</a>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<section class="section test-section" id="test">
+    <div class="container test-container">
+        <div class="test-info">
+            <span class="tag">EVALUACIÓN GRATUITA</span>
+            <h2>¿Cuál es tu nivel de <span>idioma?</span></h2>
+            <p>Responde 10 preguntas y descubre qué nivel te recomendamos.</p>
+            <div class="test-benefits">
+                <p>✓ 10 preguntas de opción múltiple</p>
+                <p>✓ Resultado inmediato</p>
+                <p>✓ Recomendación personalizada</p>
+            </div>
+        </div>
+
+        <div class="test-box">
+            <div class="progress-container">
+                <div class="progress-info">
+                    <span id="questionCounter">Pregunta 1 de 10</span>
+                    <span id="progressPercent">10%</span>
+                </div>
+                <div class="progress-bar">
+                    <div id="progressFill"></div>
+                </div>
+            </div>
+
+            <div id="quizContent">
+                <h3 id="questionText"></h3>
+                <div id="answers"></div>
+                <button id="nextQuestion" class="btn btn-primary full" disabled>Siguiente pregunta →</button>
+            </div>
+
+            <div id="quizResult" class="hidden">
+                <h2>🎉 ¡Test completado!</h2>
+                <div class="result-score" id="scoreText"></div>
+                <h3 id="levelText"></h3>
+                <p id="resultMessage"></p>
+                <a href="#inscripcion" class="btn btn-primary full">Inscribirme ahora</a>
+                <button id="restartQuiz" class="btn btn-outline full">Repetir test</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section testimonials">
+    <div class="container">
+        <div class="section-heading">
+            <span class="tag">EXPERIENCIAS REALES</span>
+            <h2>Ellos ya hablan <span>LinguaPlus</span></h2>
+        </div>
+
+        <div class="testimonial-grid">
+            <article class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>"Gracias a LinguaPlus conseguí una oportunidad laboral internacional. ¡Excelente academia!"</p>
+                <h4>Laura Martínez</h4>
+                <span>Estudiante de inglés</span>
+            </article>
+
+            <article class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>"Las clases son dinámicas y los profesores siempre están dispuestos a ayudarte."</p>
+                <h4>Andrés Gómez</h4>
+                <span>Estudiante de francés</span>
+            </article>
+
+            <article class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>"Aprendí portugués desde cero y ahora puedo comunicarme con mucha confianza."</p>
+                <h4>Camila Rodríguez</h4>
+                <span>Estudiante de portugués</span>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="section faq-section" id="faq">
+    <div class="container faq-container">
+        <div class="section-heading">
+            <span class="tag">RESOLVEMOS TUS DUDAS</span>
+            <h2>Preguntas <span>frecuentes</span></h2>
+        </div>
+
+        <div class="faq-list">
+
+            <div class="faq-item">
+                <button class="faq-question">¿Necesito conocimientos previos? <span>+</span></button>
+                <div class="faq-answer">
+                    <p>No. Contamos con cursos desde nivel básico para que puedas comenzar desde cero.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">¿Las clases son virtuales o presenciales? <span>+</span></button>
+                <div class="faq-answer">
+                    <p>Ofrecemos modalidades virtuales y presenciales, según disponibilidad del programa.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">¿Puedo realizar un test antes de inscribirme? <span>+</span></button>
+                <div class="faq-answer">
+                    <p>Sí. Nuestro test gratuito te ayuda a conocer tu nivel aproximado de idioma.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">¿Cómo puedo realizar mi inscripción? <span>+</span></button>
+                <div class="faq-answer">
+                    <p>Completa el formulario de preinscripción y nuestro equipo se comunicará contigo.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">¿Qué certificado obtengo al finalizar? <span>+</span></button>
+                <div class="faq-answer">
+                    <p>Al finalizar satisfactoriamente tu programa, podrás solicitar un certificado de estudios de LinguaPlus.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="section registration" id="inscripcion">
+    <div class="container registration-container">
+
+        <div class="registration-info">
+            <span class="tag">DA EL PRIMER PASO</span>
+            <h2>Tu próxima aventura comienza <span>aquí</span></h2>
+            <p>Déjanos tus datos y te contactaremos para ayudarte a elegir el programa ideal.</p>
+
+            <div class="contact-item">📧 info@linguaplus.com</div>
+            <div class="contact-item">📚 Inglés · Francés · Portugués</div>
+        </div>
+
+        <form id="registrationForm" class="registration-form" novalidate>
+            <h3>Formulario de preinscripción</h3>
+
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" placeholder="Escribe tu nombre" required>
+
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" placeholder="ejemplo@correo.com" required>
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" placeholder="3001234567" required>
+
+            <label for="idioma">Idioma de interés</label>
+            <select id="idioma" required>
+                <option value="">Selecciona un idioma</option>
+                <option value="Inglés">Inglés</option>
+                <option value="Francés">Francés</option>
+                <option value="Portugués">Portugués</option>
+            </select>
+
+            <label for="nivel">Nivel actual</label>
+            <select id="nivel" required>
+                <option value="">Selecciona tu nivel</option>
+                <option value="Básico">Básico</option>
+                <option value="Intermedio">Intermedio</option>
+                <option value="Avanzado">Avanzado</option>
+                <option value="No sé">No sé mi nivel</option>
+            </select>
+
+            <button type="submit" class="btn btn-primary full">Enviar preinscripción</button>
+
+            <p id="formMessage"></p>
+        </form>
+
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container footer-content">
+        <a href="#inicio" class="logo">Lingua<span>Plus</span></a>
+        <p>Aprende idiomas. Conecta con el mundo.</p>
+        <p>© 2026 LinguaPlus · Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
